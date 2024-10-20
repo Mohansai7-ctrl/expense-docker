@@ -24,3 +24,43 @@ services:
     - 80:80    # -p 80:80
     depends_on:
     - backend
+
+
+  #   commands:
+  #    136  20/10/24 05:20:51 docker ps
+  # 137  20/10/24 05:20:59 docker build -t mysql:v1 .
+  # 138  20/10/24 05:21:23 docker network ls
+  # 139  20/10/24 05:21:30 docker volume ls
+  # 140  20/10/24 05:21:42 docker volume --hel
+  # 141  20/10/24 05:21:48 docker volume --help
+  # 142  20/10/24 05:22:02 docker volume rm mysql
+  # 143  20/10/24 05:22:06 docker volume ls
+  # 144  20/10/24 05:22:40 cd ../backend
+  # 145  20/10/24 05:22:55 docker build -t backend:v1
+  # 146  20/10/24 05:22:58 docker build -t backend:v1 .
+  # 147  20/10/24 05:23:41 docker images
+  # 148  20/10/24 05:23:45 cd ../frontend
+  # 149  20/10/24 05:23:53 docker build -t frontend:v1 .
+  # 150  20/10/24 05:24:03 docker images
+  # 151  20/10/24 05:24:05 docker ps
+  # 152  20/10/24 05:24:12 cd ../
+  # 153  20/10/24 05:24:19 docker compose up -d
+  # 154  20/10/24 05:24:26 docker images
+  # 155  20/10/24 05:24:46 docker tag mysql:v1 mohansai7/mysql:v1
+  # 156  20/10/24 05:25:00 docker tag backend:v1 mohansai7/backend:v1
+  # 157  20/10/24 05:25:15 docker tag frontend:v1 mohansai7/frontend:v1
+  # 158  20/10/24 05:25:17 docker images
+  # 159  20/10/24 05:25:26 docker login -u mohansai7
+  # 160  20/10/24 05:28:47 docker images
+  # 161  20/10/24 05:29:12 docker push mohansai/mysql:v1
+  # 162  20/10/24 05:29:38 docker push mohansai7/mysql:v1
+  # 163  20/10/24 05:29:46 docker push mohansai7/backend:v1
+  # 164  20/10/24 05:29:58 docker push mohansai7/frontend:v1
+  # 165  20/10/24 05:30:43 docker compose up -d
+  # 166  20/10/24 05:30:53 docker ps
+  # 167  20/10/24 05:31:10 docker ps -a
+  # 168  20/10/24 05:31:13 docker ps
+  # 169  20/10/24 05:32:17 docker compose up -d
+  # 170  20/10/24 05:32:27 docker ps
+  # 171  20/10/24 05:32:33 history
+
